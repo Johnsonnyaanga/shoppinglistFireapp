@@ -38,9 +38,9 @@ public class Registration extends AppCompatActivity {
         btnReg=findViewById(R.id.btn_reg);
         signin =findViewById(R.id.Login_txt);
 
-        if(mAuth.getCurrentUser()!=null){
-            startActivity(new Intent(getApplicationContext(),HomeActivity.class));
-        }
+        //if(mAuth.getCurrentUser()!=null){
+       //     startActivity(new Intent(getApplicationContext(),HomeActivity.class));
+      //  }
 
 
         btnReg.setOnClickListener(new View.OnClickListener() {
